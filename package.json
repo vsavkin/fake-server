@@ -1,0 +1,17 @@
+{
+  "name": "hiring-test-server",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "server": "tsc && node dist/server.js"
+  },
+  "private": true,
+  "dependencies": {
+    "express": "4.16.2",
+    "body-parser": "1.18.2"
+  },
+  "devDependencies": {
+    "typescript": "2.6.1",
+    "@types/node": "8.0.53"
+  }
+}
